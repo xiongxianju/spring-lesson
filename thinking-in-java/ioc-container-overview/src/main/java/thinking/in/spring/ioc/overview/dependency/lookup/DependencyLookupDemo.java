@@ -10,6 +10,9 @@ import thinking.in.spring.ioc.overview.domain.User;
 
 import java.util.Map;
 
+/**
+ * 依赖查询
+ */
 public class DependencyLookupDemo {
 
 
@@ -20,7 +23,7 @@ public class DependencyLookupDemo {
       //  根据名称 实时查询
         // lookupByName(beanFactory);
          //根据名称 延迟查询
-        //  lookupLazyByName(beanFactory);
+          lookupLazyByName(beanFactory);
         //  根据类型查询
        //  lookupByType(beanFactory);
          //根据类型查询集合
